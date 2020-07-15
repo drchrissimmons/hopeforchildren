@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+        <title>Contact Us</title>
+        <script src="js/jquery-3.5.1.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+        <style>
+            section{
+                width: 100vw;
+                height: 100vh;
+            } 
+            
+            h1{
+                padding: 0;
+                margin: 0;
+            }
+            img:hover {
+                opacity: .8;
+            }
+            .navbar-custom { 
+                background-color: #e01a4f;
+            }
+            .navbar-custom .navbar-brand, .navbar-custom .navbar-text { 
+                color: white;
+            }
+            a {
+                color:white;
+            }
+            .wrapper {
+                text-align: center;
+            }
+
+            .button {
+                position: absolute;
+                top: 50%;
+            }
+            body{
+                margin-left: 20px;
+            }
+        </style>
+    </head>
+    <body style="background-color: #fee1c7">
+        <nav class="navbar navbar-custom navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Hope for Children Foundation</a>
+                </div>
+                <div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="tvids.html">Vounteer</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <br><br><br>
+            <div class="wrapper">
+                <button style="background-color: #e01a4f; border-color: white; background-size: 100px"><b><a href="https://www.paypal.com/donate/?token=emsk9oEsmcWGiDkemFsACUU7y-L9NXaWIKQTfptyswVXmVD70C0gIWBqD1EGQQNFpLgLf0&country.x=US&locale.x=US">Donate to Our Cause Here</a></b></button>
+            </div>
+            
+            <h2>Contact Us</h2>
+            <h3>If this is an emergency, call <strong>911</strong> or the National Child Abuse Hotline <strong>(1-800-422-4453)</strong> immediately</h3><br><br>
+            <fieldset>
+            <legend>Mailing Address</legend>
+                <p style="font-size: 15px">
+                Hope For Children Foundation <br> 
+                4925 Greenville Ave #200 <br>
+                Dallas, TX 75206
+                </p>
+            </fieldset>
+            <fieldset>
+            <legend>Find us on Social Media</legend>
+                <a href="https://www.facebook.com/hopeforchildrenfoundation"><img src="images/facebook.png" Height="60" width="60" alt="Facebook"></a>
+                &nbsp; &nbsp;
+                <a href="https://twitter.com/#!/@Hope4ChildrenTX"><img src="images/twitter.png" Height="60" width="60" alt="Twitter"></a>
+                &nbsp; &nbsp;
+                <a href="https://www.youtube.com/user/HopeForChildrenFndTX?feature=watch"><img src="images/youtube.png" Height="60" width="60" alt="YouTube"></a>
+            </fieldset>
+            <br>
+        <form action="contact.php" method="post">
+            <fieldset>
+                <legend>We're happy to answer questions or help you with returns. Please fill out the form below if you need assistance.</legend>
+                <label>Full Name: &nbsp; <input type="text" name="fname" maxlength="30"></label><br><br>
+                <label>E-Mail: &nbsp; <input type="email" name="email" maxlength="30"></label><br><br>
+                <label>Phone Number: &nbsp; <input type="text" name="pnumber" maxlength="30"></label><br><br>
+                <h4>Comments</h4>
+                <textarea name="comments" rows="10" cols="35"></textarea><br>
+            </fieldset>
+            <input type="submit">
+            <input type="reset">
+        </form>
+            <br><br>
+            <h4>Thank you for your support!</h4>
+            <h3><i>Hope for Children Foundation</i></h3>
+        </main>
+    </body>
+</html>
